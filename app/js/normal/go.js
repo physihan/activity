@@ -35,12 +35,12 @@ function go () {
     .type('00', '<span class="blank">')
     .type('虽然我们才认识没多久', '<span class="note">')
     .wait(10)
-   .type('0', '<br>')
+    .type('0', '<br>')
     .type('00', '<span class="blank">')
     .type('但是我发现第一次遇见我就喜欢上了你(✿◡‿◡)', '<span class="note">')
     .type('0', '<br>')
     .type('00', '<span class="blank">')
-  .wait(25)
+    .wait(25)
     .type('希望在以后的日子里，能和你一起走过', '<span class="note">')
     .wait(10)
     .type('0', '<br>')
@@ -60,11 +60,11 @@ function go () {
     .type('()', '<span class="gray">')
     .type('0', '<span class="blank">')
     .type('{', '<span class="gray">')
-  // 换行
+    // 换行
     .type('0', '<br>')
     // 两个空格
     .type('00', '<span class="blank">')
-  // 第一个options
+    // 第一个options
     .type('let', '<span class="purple">')
     .type('0', '<span class="blank">')
     .type('timerOptions', '<span class="gray">')
@@ -100,7 +100,7 @@ function go () {
     .type('}', '<span class="gray">')
     .type('0', '<br>')
 
-  // 第二个options
+    // 第二个options
     .type('00', '<span class="blank">')
     .type('let', '<span class="purple">')
     .type('0', '<span class="blank">')
@@ -296,6 +296,4 @@ function stars () {
     els[0].remove()
   }
 }
-export {
-  go
-}
+export { go }
