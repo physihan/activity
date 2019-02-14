@@ -41,7 +41,7 @@ function go () {
     .wait(10)
     .type('0', '<br>')
     .type('00', '<span class="blank">')
-    .type('再次么么哒~o(*≧▽≦)ツ', '<span class="note">')
+    .type('永远爱你~o(*≧▽≦)ツ', '<span class="note">')
     .wait(10)
     .then(() => {
       memeda()
@@ -74,9 +74,6 @@ function go () {
     .type('boy', '<span class="gray">')
     .type(':', '<span class="blue">')
     .type('0', '<span class="blank">')
-    .type("'傻瓜'", '<span class="green">')
-    .wait(15)
-    .del(4)
     .type("'费习函'", '<span class="green">')
     .type(',', '<span class="gray">')
     .type('0', '<br>')
